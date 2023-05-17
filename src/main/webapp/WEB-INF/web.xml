@@ -6,13 +6,13 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>server.DateStamp</servlet-class>
+        <servlet-name>TimeWorld</servlet-name>
+        <servlet-class>dataServer.DataStampServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/welcome</url-pattern>
+        <servlet-name>TimeWorld</servlet-name>
+        <url-pattern>/time</url-pattern>
     </servlet-mapping>
 
 </web-app>

@@ -1,4 +1,4 @@
-package server;
+package dataServer;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
