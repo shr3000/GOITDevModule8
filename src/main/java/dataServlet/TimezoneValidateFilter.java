@@ -1,4 +1,4 @@
-package dataServer;
+package dataServlet;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebFilter(urlPatterns = "/time")
-public class TimeZoneFilter  extends GenericFilter {
+public class TimezoneValidateFilter extends GenericFilter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {

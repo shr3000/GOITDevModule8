@@ -1,4 +1,4 @@
-package dataServer;
+package dataServlet;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 @WebServlet(urlPatterns = "/time")
-public class DataStampServlet extends HttpServlet {
+public class TimeServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {

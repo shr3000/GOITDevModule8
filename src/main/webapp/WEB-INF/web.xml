@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>TimeWorld</servlet-name>
-        <servlet-class>dataServer.DataStampServlet</servlet-class>
+        <servlet-class>dataServlet.TimeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
